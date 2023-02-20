@@ -9,7 +9,7 @@ for(let mult=1; mult<=10 ; mult++){
     console.log("5 x "+ mult +" = " + 5*mult);
 }
 
-console.log("----------------------------------")
+console.log("-------------------------------------")
 
 // Exercícios II: Vá do 1 até o 99 e mostre apenas os valores ímpares. (IF dentro do For)
 for(i = 1; i <= 99; i++){
@@ -18,7 +18,7 @@ for(i = 1; i <= 99; i++){
     }
 }
 
-console.log("----------------------------------")
+console.log("--------------------------------------")
 
 // Exercícios III: Conte de 50 até 75
 for(n = 50; n <= 75; n++){
