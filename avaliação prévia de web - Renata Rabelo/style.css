@@ -4,13 +4,13 @@
   box-sizing: border-box;
   text-decoration: none;
   background-color: #8e8f8e09;
+  scroll-behavior: smooth;
 }
-.bodyBuilder{
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
-
+.bodyBuilder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Header Styles */
@@ -71,7 +71,8 @@ li a {
   text-align: center;
   font-style: oblique;
   color: rgb(14, 136, 14);
-  
+  background-color: #f3f0f0dc;
+ 
 }
 
 .cardsContainer {
@@ -87,7 +88,7 @@ li a {
 .card {
   width: 250px;
   max-height: 350px;
-background-color: #ffffff;
+  background-color: #ffffff;
   border: 1px solid #000000;
   border-radius: 10px;
   box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.1);
@@ -152,9 +153,3 @@ background-color: #ffffff;
   justify-content: space-around;
   background-color: #4e9a8c;
 }
-
-
-
-
-
-
