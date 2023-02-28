@@ -1,0 +1,32 @@
+/* 
+Flex-box - caixa flexível
+*container
+*itens/content
+*direção
+
+*/
+
+
+.border{
+    padding: 0;
+    border: 2px solid black;
+}
+
+.container{
+    width: 500px;
+    height: 300px;
+
+    display: flex; /* container */
+    
+/* Funciona somente quando o display flex está ativado */
+/* Direção dos itens do container */    
+flex-direction: row; /* row -linha  column - coluna   row-reverse - inverte ordem itens  column-reverse - inverte ordem coluna*/
+
+/* Alinha os conteúdos seguindo a direção definida */
+justify-content:space-evenly; /* flex-start (inicio); flex-end(fim)  center(centro) space-between(entre os itens) space-around(espaço entre ele e laterais - mais nas laterais)  space-evenly(todos espaços iguais */
+
+
+/* alinhamento dos itens seguindo a direção perpendicular da direção definida */
+align-items: center; /* alinha em coluna, quando está em linha e vice versa  center; flex-end; flex-start; stretch(estica)*/
+
+}
