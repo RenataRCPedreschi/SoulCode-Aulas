@@ -30,3 +30,19 @@ justify-content:space-evenly; /* flex-start (inicio); flex-end(fim)  center(cent
 align-items: center; /* alinha em coluna, quando está em linha e vice versa  center; flex-end; flex-start; stretch(estica)*/
 
 }
+
+.container-2{
+width: 500px;/* em %, divide a quantidade da altura */
+height: 300px;
+
+display: flex;
+flex-direction: row;
+/* quebra linha/coluna dos conteúdos */
+flex-wrap: wrap; 
+
+justify-content: center;
+align-items: center;
+
+/* Funciona somente com flex-wrap:wrap(agrupa os itens da linha*/
+align-content: center; /* flex-start, flex-end, center, space-between, space-around, space evenly*/
+}
